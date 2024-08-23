@@ -1,0 +1,262 @@
+/*general*/
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: rgb(237 242 248);
+}
+
+.images {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: 1vh 1vw;
+}
+
+img {
+    border-radius: 50%;
+    border: 3px solid white;
+    width: 3vw;
+}
+
+h3{
+    color: white;
+}
+
+.name {
+    padding: 0vh 2vw;
+}
+
+p {
+    color: darkgray;
+    margin-top: -2vh;
+}
+
+.text {
+    padding: 0vh 2vw;
+    margin-top: -2vh;
+}  
+
+.text p:first-of-type {
+    font-size: x-large;
+    color: white;
+    margin: -1vh 0vw;
+    width: 36vw;
+    font-size: 18px;
+}
+
+.text p:last-of-type {
+    font-size: medium;
+    margin: 0vh;
+    width: 35vw;
+}
+
+/*card Daniel*/
+
+.Daniel {
+    background-color: rgb(115 63 200);
+    background-image: url(testimonials-grid-section-main/images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 78% 0%;
+    background-size: 7vw;
+    width: 41%;
+    border-radius: 1vw;
+    height: 48vh;
+    margin: 0vh 2vw;
+}
+
+
+
+/*card Jonathan*/
+
+.Jonathan {
+    background-color: rgb(73 85 107);
+    width: 22%;
+    margin: -48vh 44vw;
+    border-radius: 1vw;
+    height: 48vh;
+}
+
+.Jonathan .text p:first-of-type {
+    width: 16vw;
+    font-size: 20px;
+}
+
+.Jonathan .text p:last-of-type {
+    width: 20vw;
+    margin: 2vh 0vw;
+}
+/*card Jeanette*/
+
+.Jeanette {
+    background-color: rgb(255 255 255);
+    width: 22%;
+    margin: 51vh 2vw;
+    border-radius: 1vw;
+    height: 43vh;
+}
+
+.Jeanette h3 {
+    color: black;
+}
+
+.Jeanette .text p:first-of-type {
+    color: black;
+    width: 14vw;
+}
+
+.Jeanette .text p:last-of-type {
+    font-size: medium;
+    margin: 0vh;
+    width: 20vw;
+}
+
+/*card Patrick*/
+
+.Patrick {
+    background-color: rgb(24 32 45);
+    width: 41%;
+    margin: -94vh 25.4vw;
+    border-radius: 1vw;
+    height: 43vh;
+}
+
+.Patrick .images img{
+
+    border: 3px solid blueviolet;
+
+}
+
+/*card Kira*/
+
+.Kira {
+    background-color: rgb(255 255 255);
+    width: 25%;
+    margin: 0vh 67vw;
+    border-radius: 1vw;
+    height: 94vh;
+}
+
+.Kira h3 {
+    color: black;
+}
+
+.Kira .text p:first-of-type {
+    color: black;
+    width: 30vw;
+    font-size: xx-large;
+}
+
+.Kira .text p:last-of-type {
+
+    width: 20vw;
+}
+
+@media screen and (max-width:480px) {
+
+    .Daniel,
+    .Jonathan,
+    .Jeanette,
+    .Patrick,
+    .Kira {
+        width: 90%;
+        margin: 2vh 5vw;
+        border-radius:2vw ;
+    
+    }
+
+    .images {
+
+        padding: 1vh 5vw;
+    }
+
+    img {
+        width: 9vw;
+    }
+
+    .text {
+        padding: 0vh 6vw;
+        margin-top: 0vh;
+    }
+
+    .text p:first-of-type {
+        width: 77vw;
+        font-size: 16px;
+    }
+
+    .text p:last-of-type {
+        font-size: medium;
+        margin: 0vh;
+        width: 76vw;
+    }
+
+    .Daniel {
+        background-position: 93% 0%;
+        background-size: 22vw;
+        height: 58vh;
+    }
+
+    .Jonathan {
+        height: 35vh;
+    }
+
+    .Jonathan .text p:first-of-type {
+        width: 45vw;
+        font-size: 15px;
+    }
+
+    .Jonathan .text p:last-of-type {
+        width: 77vw;
+        margin: 0vh -1vw;
+    }
+
+    .Jeanette {
+        height: 35vh;
+    }
+
+    .Jeanette .text p:first-of-type {
+        color: black;
+        width: 55vw;
+        font-size: large;
+    }
+
+    .Jeanette .text p:last-of-type {
+        width: 77vw;
+    }
+
+    .Patrick {
+        height: 55vh;
+    }
+
+    .Patrick .text p:first-of-type {
+        width: 45vw;
+        font-size: 15px;
+    }
+
+
+    .Kira {
+        height: 68vh;
+    }
+
+.Kira .text p:first-of-type {
+    width: 62vw;
+    font-size: 20px;
+}
+
+.Kira .text p:last-of-type {
+    width: 75vw;
+}
+    
+
+
+
+
+}
+
+
+
+    
